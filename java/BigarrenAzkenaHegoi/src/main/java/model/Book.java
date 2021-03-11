@@ -13,6 +13,7 @@ import java.util.List;
  * @author Hegoi
  */
 public class Book {
+
     public String title;
     public int isbn;
     public int pageCount;
@@ -114,7 +115,5 @@ public class Book {
     public String toString() {
         return "Book{" + "title=" + title + ", isbn=" + isbn + ", pageCount=" + pageCount + ", publishedDate=" + publishedDate + ", thumbnailUrl=" + thumbnailUrl + ", shortDescription=" + shortDescription + ", status=" + status + ", Authors=" + Authors + ", Categories=" + Categories + '}';
     }
-    
-    
-    
+
 }
