@@ -18,7 +18,7 @@ public class JavaFX extends Application {
         btn.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.readAll();
+                view.Main.irakurriDena();
             }
         });
 
