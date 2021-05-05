@@ -7,6 +7,7 @@ package model;
 
 import java.util.Date;
 import java.util.List;
+import org.bson.types.ObjectId;
 
 /**
  *
@@ -14,6 +15,7 @@ import java.util.List;
  */
 public class Book {
 
+    public ObjectId _id;
     public String title;
     public int isbn;
     public int pageCount;
@@ -27,7 +29,8 @@ public class Book {
     public Book() {
     }
 
-    public Book(String title, int isbn, int pageCount, Date publishedDate, String thumbnailUrl, String shortDescription, boolean status, List<String> Authors, List<String> Categories) {
+    public Book(ObjectId _id, String title, int isbn, int pageCount, Date publishedDate, String thumbnailUrl, String shortDescription, boolean status, List<String> Authors, List<String> Categories) {
+        this._id = _id;
         this.title = title;
         this.isbn = isbn;
         this.pageCount = pageCount;
@@ -37,6 +40,14 @@ public class Book {
         this.status = status;
         this.Authors = Authors;
         this.Categories = Categories;
+    }
+
+    public ObjectId getId() {
+        return _id;
+    }
+
+    public void setId(ObjectId _id) {
+        this._id = _id;
     }
 
     public String getTitle() {
@@ -113,7 +124,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" + "title=" + title + ", isbn=" + isbn + ", pageCount=" + pageCount + ", publishedDate=" + publishedDate + ", thumbnailUrl=" + thumbnailUrl + ", shortDescription=" + shortDescription + ", status=" + status + ", Authors=" + Authors + ", Categories=" + Categories + '}';
+        return "Book{" + "_id=" + _id + ", title=" + title + ", isbn=" + isbn + ", pageCount=" + pageCount + ", publishedDate=" + publishedDate + ", thumbnailUrl=" + thumbnailUrl + ", shortDescription=" + shortDescription + ", status=" + status + ", Authors=" + Authors + ", Categories=" + Categories + '}';
     }
 
 }

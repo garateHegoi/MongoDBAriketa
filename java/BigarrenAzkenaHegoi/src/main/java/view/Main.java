@@ -1,5 +1,6 @@
 package view;
 
+import antlr.Utils;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.MongoCommandException;
 import com.mongodb.MongoWriteException;
@@ -11,20 +12,33 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 import static com.mongodb.client.model.Filters.all;
 import static com.mongodb.client.model.Filters.eq;
+import com.mysql.cj.xdevapi.SessionFactory;
 import controller.*;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
+import javax.security.auth.login.Configuration;
 import model.*;
 import static org.bson.codecs.configuration.CodecRegistries.fromProviders;
 import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
+import org.hibernate.Session;
+import org.json.CDL;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONTokener;
 
 public class Main {
+
+    public static org.hibernate.SessionFactory sf = new org.hibernate.cfg.Configuration().configure().buildSessionFactory();
 
     static CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(), fromProviders(PojoCodecProvider.builder().automatic(true).build()));
     static MongoClientSettings settings = MongoClientSettings.builder().codecRegistry(pojoCodecRegistry).build();
@@ -46,15 +60,15 @@ public class Main {
         try (MongoCursor<Book> cur = collection.find().iterator()) {
 
             System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-            System.out.printf("%20s | %20d | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
-                    "Title", "Isbn", "Page Count", "Published Date", "Thhumbnail Url", "Short Description", "Status", "Authors", "Categories");
+            System.out.printf("%20d | %20s | %20d | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
+                    "_id", "Title", "Isbn", "Page Count", "Published Date", "Thhumbnail Url", "Short Description", "Status", "Authors", "Categories");
             System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
             while (cur.hasNext()) {
 
                 Book book = cur.next();
-                System.out.printf("%20s | %20d | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
-                        book.getTitle(), book.getIsbn(), book.getPageCount(), book.getPublishedDate(), book.getThumbnailUrl(), book.getShortDescription(), book.isStatus(), book.getAuthors(), book.getCategories());
+                System.out.printf("%20d | %20s | %20d | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
+                        book.getId(), book.getTitle(), book.getIsbn(), book.getPageCount(), book.getPublishedDate(), book.getThumbnailUrl(), book.getShortDescription(), book.isStatus(), book.getAuthors(), book.getCategories());
             }
         }
     }
@@ -118,16 +132,16 @@ public class Main {
             try (MongoCursor<Book> cur = collection.find(all("kategoria", kategoria)).iterator()) {
 
                 System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-            System.out.printf("%20s | %20d | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
-                    "Title", "Isbn", "Page Count", "Published Date", "Thhumbnail Url", "Short Description", "Status", "Authors", "Categories");
-            System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+                System.out.printf("%20d | %20s | %20d | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
+                        "_id", "Title", "Isbn", "Page Count", "Published Date", "Thhumbnail Url", "Short Description", "Status", "Authors", "Categories");
+                System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-            while (cur.hasNext()) {
-                
+                while (cur.hasNext()) {
+
                     Book book = cur.next();
                     if (book.getCategories().toString().contains(kategoria)) {
-                        System.out.printf("%5.5s | %20.20s | %30.30s | %20.20s | %40.40s | %20.20s | %50.50s | %10.10s | %30.30s | %10.10s%n",
-                                book.getTitle(), book.getIsbn(), book.getPageCount(), book.getPublishedDate(), book.getThumbnailUrl(), book.getShortDescription(), book.isStatus(), book.getAuthors(), book.getCategories());
+                        System.out.printf("%20d | %5.5s | %20.20s | %30.30s | %20.20s | %40.40s | %20.20s | %50.50s | %10.10s | %30.30s | %10.10s%n",
+                                book.getId(), book.getTitle(), book.getIsbn(), book.getPageCount(), book.getPublishedDate(), book.getThumbnailUrl(), book.getShortDescription(), book.isStatus(), book.getAuthors(), book.getCategories());
                     }
                 }
             }
@@ -141,7 +155,7 @@ public class Main {
         System.out.println("---------------------");
         Book book = new Book();
         Boolean isbnOndo = false, orriakOndo = false, dataOndo = false;
-        int isbn = 0, orriak = 0; 
+        int isbn = 0, orriak = 0;
         Date data;
         List<String> kategoria = new ArrayList<>();
         List<String> autoreak = new ArrayList<>();
@@ -172,7 +186,7 @@ public class Main {
             book.setThumbnailUrl(in.next());
             System.out.println("Aktibo estatua (true edo false):");
             book.setStatus(in.nextBoolean());
-            
+
             while (!orriakOndo) {
                 System.out.println("Orri kopurua:");
                 try {
@@ -184,7 +198,7 @@ public class Main {
                 }
             }
             book.setPageCount(orriak);
-            
+
             collection.insertOne(book);
         } catch (MongoWriteException e) {
             System.out.println("Liburu hau dagoeko existitzen da");
@@ -198,7 +212,7 @@ public class Main {
         System.out.println("---------------------");
         Book book = new Book();
         Boolean isbnOndo = false, orriakOndo = false, dataOndo = false;
-        int isbn = 0, orriak = 0; 
+        int isbn = 0, orriak = 0;
         Date data;
         List<String> kategoria = new ArrayList<>();
         List<String> autoreak = new ArrayList<>();
@@ -229,7 +243,7 @@ public class Main {
             book.setThumbnailUrl(in.next());
             System.out.println("Aktibo estatua (true edo false):");
             book.setStatus(in.nextBoolean());
-            
+
             while (!orriakOndo) {
                 System.out.println("Orri kopurua:");
                 try {
@@ -260,5 +274,46 @@ public class Main {
         } catch (MongoCommandException e) {
             System.out.println("Sartu duzun isbn-a ez da existitzen");
         }
+    }
+
+    public static void datuaGordeMariaDB() {
+        Scanner sn = new Scanner(System.in);
+        int idBerria = 0;
+        String izenBerria;
+
+        System.out.println("Sartu artista berriaren izena: ");
+        izenBerria = sn.next();
+
+        Session saioa = sf.openSession();
+        saioa.beginTransaction();
+        saioa.save(izenBerria);
+        saioa.getTransaction().commit();
+        saioa.close();
+
+    }
+
+    public static void datuakIkusiMariaDB() {
+
+        Session saioa = sf.openSession();
+        saioa.beginTransaction();
+        List result = saioa.createQuery("from books").list();
+        for (Book a : (List<Book>) result) {
+            System.out.println(a);
+        }
+    }
+
+    private static void datuakKenduMariaDB() {
+        Scanner sn = new Scanner(System.in);
+        int idArtistaEzabatu;
+        System.out.println("Sartu ezabatu nahi duzun artistaren ID-a: ");
+        idArtistaEzabatu = sn.nextInt();
+        Session saoia = sf.openSession();
+        saoia.beginTransaction();
+
+        Book a = saoia.find(Book.class, idArtistaEzabatu);
+        saoia.remove(a);
+        saoia.getTransaction().commit();
+        System.out.println("Artista ondo ezabatuta!!!");
+        saoia.close();
     }
 }

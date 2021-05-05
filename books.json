@@ -1,5 +1,5 @@
 [{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d356"
   },
   "title": "Unlocking Android",
@@ -21,7 +21,7 @@
     "Mobile"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d357"
   },
   "title": "Android in Action, Second Edition",
@@ -41,7 +41,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d358"
   },
   "title": "Specification by Example",
@@ -59,7 +59,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d359"
   },
   "title": "Flex 3 in Action",
@@ -79,7 +79,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d35a"
   },
   "title": "Flex 4 in Action",
@@ -100,7 +100,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d35b"
   },
   "title": "Collective Intelligence in Action",
@@ -118,7 +118,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d35c"
   },
   "title": "Zend Framework in Action",
@@ -139,7 +139,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d35d"
   },
   "title": "Flex on Java",
@@ -159,7 +159,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d35e"
   },
   "title": "Griffon in Action",
@@ -181,7 +181,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d35f"
   },
   "title": "OSGi in Depth",
@@ -200,7 +200,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d360"
   },
   "title": "Flexible Rails",
@@ -219,7 +219,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d361"
   },
   "title": "Hello! Flex 4",
@@ -238,7 +238,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d362"
   },
   "title": "Coffeehouse",
@@ -259,7 +259,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d363"
   },
   "title": "Team Foundation Server 2008 in Action",
@@ -278,7 +278,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d364"
   },
   "title": "Brownfield Application Development in .NET",
@@ -299,7 +299,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d365"
   },
   "title": "MongoDB in Action",
@@ -319,7 +319,7 @@
     "Databases"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d366"
   },
   "title": "Distributed Application Development with PowerBuilder 6.0",
@@ -337,7 +337,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d367"
   },
   "title": "Jaguar Development with PowerBuilder 7",
@@ -358,7 +358,7 @@
     "Client-Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d368"
   },
   "title": "Taming Jaguar",
@@ -378,7 +378,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d369"
   },
   "title": "3D User Interfaces with Java 3D",
@@ -398,7 +398,7 @@
     "Computer Graphics"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d36a"
   },
   "title": "Hibernate in Action",
@@ -419,7 +419,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d36b"
   },
   "title": "Hibernate in Action (Chinese Edition)",
@@ -438,7 +438,7 @@
   ],
   "isbn": "22"
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d36c"
   },
   "title": "Java Persistence with Hibernate",
@@ -459,7 +459,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d36d"
   },
   "title": "JSTL in Action",
@@ -478,7 +478,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d36e"
   },
   "title": "iBATIS in Action",
@@ -500,7 +500,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d36f"
   },
   "title": "Designing Hard Software",
@@ -519,7 +519,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d370"
   },
   "title": "Hibernate Search in Action",
@@ -540,7 +540,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d371"
   },
   "title": "jQuery in Action",
@@ -561,7 +561,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d372"
   },
   "title": "jQuery in Action, Second Edition",
@@ -582,7 +582,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d373"
   },
   "title": "Building Secure and Reliable Network Applications",
@@ -603,7 +603,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d374"
   },
   "title": "Ruby for Rails",
@@ -623,7 +623,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d375"
   },
   "title": "The Well-Grounded Rubyist",
@@ -643,7 +643,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d376"
   },
   "title": "Website Owner's Manual",
@@ -663,7 +663,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d377"
   },
   "title": "ASP.NET 4.0 in Practice",
@@ -686,7 +686,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d378"
   },
   "title": "Hello! Python",
@@ -706,7 +706,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d379"
   },
   "title": "PFC Programmer's Reference Manual",
@@ -725,7 +725,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d37a"
   },
   "title": "Graphics File Formats",
@@ -745,7 +745,7 @@
     "Computer Graphics"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d37b"
   },
   "title": "Visual Object Oriented Programming",
@@ -767,7 +767,7 @@
     "Programming"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d37c"
   },
   "title": "iOS in Practice",
@@ -785,7 +785,7 @@
     "Mobile"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d37d"
   },
   "title": "iPhone in Action",
@@ -806,7 +806,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d37e"
   },
   "title": "Silverlight 2 in Action",
@@ -827,7 +827,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d37f"
   },
   "title": "The Quick Python Book, Second Edition",
@@ -847,7 +847,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d380"
   },
   "title": "Internet and Intranet Applications with PowerBuilder 6",
@@ -866,7 +866,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d381"
   },
   "title": "Practical Methods for Your Year 2000 Problem",
@@ -885,7 +885,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d382"
   },
   "title": "Mobile Agents",
@@ -906,7 +906,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d383"
   },
   "title": "Spring Dynamic Modules in Action",
@@ -929,7 +929,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d384"
   },
   "title": "SQL Server 2008 Administration in Action",
@@ -948,7 +948,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d385"
   },
   "title": "Android in Practice",
@@ -971,7 +971,7 @@
     "Mobile"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d386"
   },
   "title": "Object Oriented Perl",
@@ -990,7 +990,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d387"
   },
   "title": "GWT in Practice",
@@ -1010,7 +1010,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d388"
   },
   "title": "Ajax in Action",
@@ -1030,7 +1030,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d389"
   },
   "title": "Ajax in Practice",
@@ -1053,7 +1053,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d38a"
   },
   "title": "Prototype and Scriptaculous in Action",
@@ -1073,7 +1073,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d38b"
   },
   "title": "POJOs in Action",
@@ -1093,7 +1093,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d38c"
   },
   "title": "Data Munging with Perl",
@@ -1112,7 +1112,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d38d"
   },
   "title": "Hello! HTML5 & CSS3",
@@ -1132,7 +1132,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d38e"
   },
   "title": "Seam in Action",
@@ -1152,7 +1152,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d38f"
   },
   "title": "Wicket in Action",
@@ -1172,7 +1172,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d390"
   },
   "title": "Open Source SOA",
@@ -1191,7 +1191,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d391"
   },
   "title": "Struts 2 in Action",
@@ -1213,7 +1213,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d392"
   },
   "title": "Essential Guide to Peoplesoft Development and Customization",
@@ -1235,7 +1235,7 @@
     "Client-Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d393"
   },
   "title": ".NET Multithreading",
@@ -1255,7 +1255,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d394"
   },
   "title": "SCWCD Exam Study Kit Second Edition",
@@ -1277,7 +1277,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d395"
   },
   "title": "Spring Roo in Action",
@@ -1296,7 +1296,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d396"
   },
   "title": "SOA Governance in Action",
@@ -1314,7 +1314,7 @@
     "java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d397"
   },
   "title": "RSS and Atom in Action",
@@ -1333,7 +1333,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d398"
   },
   "title": "LDAP Programming, Management and Integration",
@@ -1352,7 +1352,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d399"
   },
   "title": "Mule in Action",
@@ -1373,7 +1373,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d39a"
   },
   "title": "Java Foundation Classes",
@@ -1393,7 +1393,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d39b"
   },
   "title": "Managing Components with Modeler",
@@ -1411,7 +1411,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d39c"
   },
   "title": "Command-line Processing with CLI",
@@ -1429,7 +1429,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d39d"
   },
   "title": "Understanding and Using Chain",
@@ -1447,7 +1447,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d39e"
   },
   "title": "Working with the Logging and Discovery Components",
@@ -1465,7 +1465,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d39f"
   },
   "title": "Uploading files with FileUpload",
@@ -1483,7 +1483,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a0"
   },
   "title": "Handling Protocols with the Net Component",
@@ -1501,7 +1501,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a1"
   },
   "title": "XML Parsing with Digester",
@@ -1519,7 +1519,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a2"
   },
   "title": "JXPath and Betwixt: Working with XML",
@@ -1537,7 +1537,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a3"
   },
   "title": "Validating Data with Validator",
@@ -1555,7 +1555,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a4"
   },
   "title": "Enhancing Java Core Libraries with Collections",
@@ -1573,7 +1573,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a5"
   },
   "title": "Enhancing Java Core Libraries with BeanUtils and Lang",
@@ -1591,7 +1591,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a6"
   },
   "title": "Pool and DBCP: Creating and Using Object Pools",
@@ -1609,7 +1609,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a7"
   },
   "title": "Python and Tkinter Programming",
@@ -1628,7 +1628,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a8"
   },
   "title": "Microsoft.NET for Programmers",
@@ -1647,7 +1647,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3a9"
   },
   "title": "Grails in Action",
@@ -1668,7 +1668,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3aa"
   },
   "title": "Up to Speed with Swing, Second Edition",
@@ -1688,7 +1688,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ab"
   },
   "title": "OSGi in Action",
@@ -1712,7 +1712,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ac"
   },
   "title": "GWT in Action",
@@ -1733,7 +1733,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ad"
   },
   "title": "The Quick Python Book",
@@ -1753,7 +1753,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ae"
   },
   "title": "SharePoint 2010 Site Owner's Manual",
@@ -1773,7 +1773,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3af"
   },
   "title": "Java Development with Ant",
@@ -1795,7 +1795,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b0"
   },
   "title": "Lucene in Action",
@@ -1815,7 +1815,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b1"
   },
   "title": "Lucene in Action, Second Edition",
@@ -1839,7 +1839,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b2"
   },
   "title": "PowerBuilder 6.0 Questions & Answers",
@@ -1859,7 +1859,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b3"
   },
   "title": "The Awesome Power of PowerJ",
@@ -1879,7 +1879,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b4"
   },
   "title": "The Awesome Power of Power++",
@@ -1899,7 +1899,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b5"
   },
   "title": "Azure in Action",
@@ -1920,7 +1920,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b6"
   },
   "title": "Distributed Agile in Action",
@@ -1938,7 +1938,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b7"
   },
   "title": "Metaprogramming in .NET",
@@ -1957,7 +1957,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b8"
   },
   "title": "Portlets and Apache Portals",
@@ -1981,7 +1981,7 @@
   ],
   "isbn": "99"
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3b9"
   },
   "title": "Code Generation in Action",
@@ -2001,7 +2001,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ba"
   },
   "title": "Illustrated Guide to HTTP",
@@ -2020,7 +2020,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3bb"
   },
   "title": "Agile ALM",
@@ -2040,7 +2040,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3bc"
   },
   "title": "Java Network Programming, Second Edition",
@@ -2062,7 +2062,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3bd"
   },
   "title": "Struts in Action",
@@ -2085,7 +2085,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3be"
   },
   "title": "Camel in Action",
@@ -2106,7 +2106,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3bf"
   },
   "title": "Taming Text",
@@ -2129,7 +2129,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c0"
   },
   "title": "JBoss in Action",
@@ -2149,7 +2149,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c1"
   },
   "title": "Gnuplot in Action",
@@ -2168,7 +2168,7 @@
     "Computer Graphics"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c2"
   },
   "title": "Extending and Embedding Perl",
@@ -2188,7 +2188,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c3"
   },
   "title": "iOS 4 in Action",
@@ -2212,7 +2212,7 @@
     "Mobile"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c4"
   },
   "title": "Elements of Programming with Perl",
@@ -2231,7 +2231,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c5"
   },
   "title": "Learn Windows PowerShell in a Month of Lunches",
@@ -2251,7 +2251,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c6"
   },
   "title": "R in Action",
@@ -2271,7 +2271,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c7"
   },
   "title": "Android in Practice",
@@ -2288,7 +2288,7 @@
     "Mobile"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c8"
   },
   "title": "SOA Security",
@@ -2308,7 +2308,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3c9"
   },
   "title": "Rails 3 in Action",
@@ -2329,7 +2329,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ca"
   },
   "title": "Continuous Integration in .NET",
@@ -2350,7 +2350,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3cb"
   },
   "title": "Technology Paradise Lost",
@@ -2370,7 +2370,7 @@
     "Business"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3cc"
   },
   "title": "Kermit 95+",
@@ -2390,7 +2390,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3cd"
   },
   "title": "Laszlo in Action",
@@ -2410,7 +2410,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ce"
   },
   "title": "Groovy in Action",
@@ -2432,7 +2432,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3cf"
   },
   "title": "Groovy in Action, Second Edition",
@@ -2456,7 +2456,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d0"
   },
   "title": "Object Technology Centers of Excellence",
@@ -2477,7 +2477,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d1"
   },
   "title": "Test Driven",
@@ -2496,7 +2496,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d2"
   },
   "title": "Effective Unit Testing",
@@ -2514,7 +2514,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d3"
   },
   "title": "Making Java Groovy",
@@ -2534,7 +2534,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d4"
   },
   "title": "The Awesome Power of Direct3D/DirectX",
@@ -2554,7 +2554,7 @@
     "Computer Graphics"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d5"
   },
   "title": "Practical Software Requirements",
@@ -2574,7 +2574,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d6"
   },
   "title": "NHibernate in Action",
@@ -2597,7 +2597,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d7"
   },
   "title": "Microsoft Reporting Services in Action",
@@ -2616,7 +2616,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d8"
   },
   "title": "AspectJ in Action",
@@ -2635,7 +2635,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3d9"
   },
   "title": "AspectJ in Action, Second Edition",
@@ -2655,7 +2655,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3da"
   },
   "title": "Hadoop in Action",
@@ -2675,7 +2675,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3db"
   },
   "title": "SQR in PeopleSoft and Other Applications",
@@ -2696,7 +2696,7 @@
     "Client-Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3dc"
   },
   "title": "SQR in PeopleSoft and Other Applications, Second Edition",
@@ -2717,7 +2717,7 @@
     "Client-Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3dd"
   },
   "title": "F# in Action",
@@ -2734,7 +2734,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3de"
   },
   "title": "Tuscany SCA in Action",
@@ -2758,7 +2758,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3df"
   },
   "title": "Client/Server Yellow Pages",
@@ -2779,7 +2779,7 @@
     "Client-Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e0"
   },
   "title": "Object Oriented Application Frameworks",
@@ -2800,7 +2800,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e1"
   },
   "title": "Tapestry in Action",
@@ -2820,7 +2820,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e2"
   },
   "title": "WebWork in Action",
@@ -2840,7 +2840,7 @@
     "internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e3"
   },
   "title": "MacRuby in Action",
@@ -2859,7 +2859,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e4"
   },
   "title": "Erlang and OTP in Action",
@@ -2882,7 +2882,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e5"
   },
   "title": "SharePoint 2007 Developer's Guide to Business Data Catalog",
@@ -2903,7 +2903,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e6"
   },
   "title": "Doing IT Right",
@@ -2924,7 +2924,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e7"
   },
   "title": "Adobe AIR in Action",
@@ -2946,7 +2946,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e8"
   },
   "title": "Ant in Action",
@@ -2967,7 +2967,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3e9"
   },
   "title": "Restlet in Action",
@@ -2990,7 +2990,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ea"
   },
   "title": "iText in Action",
@@ -3010,7 +3010,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3eb"
   },
   "title": "iText in Action, Second Edition",
@@ -3030,7 +3030,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ec"
   },
   "title": "Power-3D",
@@ -3049,7 +3049,7 @@
     "Computer Graphics"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ed"
   },
   "title": "SNA and TCP/IP Enterprise Networking",
@@ -3073,7 +3073,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ee"
   },
   "title": "Subversion in Action",
@@ -3093,7 +3093,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ef"
   },
   "title": "Minimal Perl",
@@ -3112,7 +3112,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f0"
   },
   "title": "Distributed Programming with Java",
@@ -3131,7 +3131,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f1"
   },
   "title": "Comprehensive Networking Glossary and Acronym Guide",
@@ -3151,7 +3151,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f2"
   },
   "title": "JavaServer Faces in Action",
@@ -3170,7 +3170,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f3"
   },
   "title": "LINQ in Action",
@@ -3191,7 +3191,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f4"
   },
   "title": "Internet BBSs",
@@ -3211,7 +3211,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f5"
   },
   "title": "Algorithms of the Intelligent Web",
@@ -3231,7 +3231,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f6"
   },
   "title": "JUnit in Action",
@@ -3250,7 +3250,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f7"
   },
   "title": "Tika in Action",
@@ -3269,7 +3269,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f8"
   },
   "title": "Ruby in Practice",
@@ -3289,7 +3289,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3f9"
   },
   "title": "Inside LotusScript",
@@ -3309,7 +3309,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3fa"
   },
   "title": "Maximum MIDI",
@@ -3328,7 +3328,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3fb"
   },
   "title": "Planning and Managing ATM Networks",
@@ -3352,7 +3352,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3fc"
   },
   "title": "Client/Server Applications on ATM Networks",
@@ -3374,7 +3374,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3fd"
   },
   "title": "JavaFX in Action",
@@ -3393,7 +3393,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3fe"
   },
   "title": "Entity Framework 4 in Action",
@@ -3416,7 +3416,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d3ff"
   },
   "title": "ASP.NET 2.0 Web Parts in Action",
@@ -3436,7 +3436,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d400"
   },
   "title": "Sass and Compass in Action",
@@ -3460,7 +3460,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d401"
   },
   "title": "Core OWL 5.0",
@@ -3480,7 +3480,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d402"
   },
   "title": "Advanced OWL 5.0",
@@ -3500,7 +3500,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d403"
   },
   "title": "Server-Based Java Programming",
@@ -3521,7 +3521,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d404"
   },
   "title": "SQL Server MVP Deep Dives",
@@ -3548,7 +3548,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d405"
   },
   "title": "SQL Server MVP Deep Dives",
@@ -3574,7 +3574,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d406"
   },
   "title": "SQL Server MVP Deep Dives",
@@ -3598,7 +3598,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d407"
   },
   "title": "PostGIS in Action",
@@ -3619,7 +3619,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d408"
   },
   "title": "Programming Mac OS X",
@@ -3639,7 +3639,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d409"
   },
   "title": "The Art of Unit Testing",
@@ -3658,7 +3658,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d40a"
   },
   "title": "Mahout in Action",
@@ -3680,7 +3680,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d40b"
   },
   "title": "ASP.NET MVC in Action",
@@ -3703,7 +3703,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d40c"
   },
   "title": "ASP.NET MVC 2 in Action",
@@ -3728,7 +3728,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d40d"
   },
   "title": "ASP.NET MVC 4 in Action",
@@ -3753,7 +3753,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d40e"
   },
   "title": "EJB 3 in Action",
@@ -3774,7 +3774,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d40f"
   },
   "title": "EJB 3 in Action, Second Edition",
@@ -3798,7 +3798,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d410"
   },
   "title": "Explorer's Guide to the Semantic Web",
@@ -3819,7 +3819,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d411"
   },
   "title": "Practical LotusScript",
@@ -3838,7 +3838,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d412"
   },
   "title": "Domino Development with Java",
@@ -3857,7 +3857,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d413"
   },
   "title": "Windows PowerShell in Action",
@@ -3877,7 +3877,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d414"
   },
   "title": "Windows PowerShell in Action, Second Edition",
@@ -3897,7 +3897,7 @@
     "Microsoft"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d415"
   },
   "title": "Silverlight 4 in Action, Revised Edition",
@@ -3917,7 +3917,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d416"
   },
   "title": "Silverlight 5 in Action",
@@ -3935,7 +3935,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d417"
   },
   "title": "Hibernate Quickly",
@@ -3956,7 +3956,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d418"
   },
   "title": "Generative Art",
@@ -3974,7 +3974,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d419"
   },
   "title": "Windows Phone 7 in Action",
@@ -3997,7 +3997,7 @@
     "Mobile"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d41a"
   },
   "title": "Lift in Action",
@@ -4015,7 +4015,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d41b"
   },
   "title": "Web Development with Apache and Perl",
@@ -4035,7 +4035,7 @@
     "Client-Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d41c"
   },
   "title": "Real-World Functional Programming",
@@ -4055,7 +4055,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d41d"
   },
   "title": "Machine Learning in Action",
@@ -4075,7 +4075,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d41e"
   },
   "title": "Dependency Injection",
@@ -4095,7 +4095,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d41f"
   },
   "title": "Understanding Enterprise SOA",
@@ -4116,7 +4116,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d420"
   },
   "title": "Open-Source ESBs in Action",
@@ -4136,7 +4136,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d421"
   },
   "title": "Activiti in Action",
@@ -4154,7 +4154,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d422"
   },
   "title": "DSLs in Boo: Domain-Specific Languages in .NET",
@@ -4174,7 +4174,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d423"
   },
   "title": "JUnit Recipes",
@@ -4193,7 +4193,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d424"
   },
   "title": "wxPython in Action",
@@ -4214,7 +4214,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d425"
   },
   "title": "Clojure in Action",
@@ -4234,7 +4234,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d426"
   },
   "title": "Scala in Action",
@@ -4252,7 +4252,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d427"
   },
   "title": "Working with Objects",
@@ -4272,7 +4272,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d428"
   },
   "title": "PHP in Action",
@@ -4293,7 +4293,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d429"
   },
   "title": "Secrets of the JavaScript Ninja",
@@ -4313,7 +4313,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d42a"
   },
   "title": "Microsoft Office Essentials",
@@ -4333,7 +4333,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d42b"
   },
   "title": "Swing",
@@ -4351,7 +4351,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d42c"
   },
   "title": "The Awesome Power of Java Beans",
@@ -4370,7 +4370,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d42d"
   },
   "title": "Personal Videoconferencing",
@@ -4390,7 +4390,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d42e"
   },
   "title": "The Cloud at Your Service",
@@ -4409,7 +4409,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d42f"
   },
   "title": "Implementing Elliptic Curve Cryptography",
@@ -4429,7 +4429,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d430"
   },
   "title": "SOA Patterns",
@@ -4449,7 +4449,7 @@
     "Databases"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d431"
   },
   "title": "Hello World!",
@@ -4470,7 +4470,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d432"
   },
   "title": "SCBCD Exam Study Kit",
@@ -4489,7 +4489,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d433"
   },
   "title": "Portlets in Action",
@@ -4509,7 +4509,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d434"
   },
   "title": "SWT/JFace in Action",
@@ -4533,7 +4533,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d435"
   },
   "title": "OpenCL in Action",
@@ -4551,7 +4551,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d436"
   },
   "title": "Multiprotocol over ATM",
@@ -4573,7 +4573,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d437"
   },
   "title": "Dependency Injection in .NET",
@@ -4593,7 +4593,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d438"
   },
   "title": "Java 3D Programming",
@@ -4614,7 +4614,7 @@
     "Computer Graph"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d439"
   },
   "title": "Liferay in Action",
@@ -4633,7 +4633,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d43a"
   },
   "title": "JSP Tag Libraries",
@@ -4655,7 +4655,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d43b"
   },
   "title": "Instant Messaging in Java",
@@ -4676,7 +4676,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d43c"
   },
   "title": "Java Applets and Channels Without Programming",
@@ -4701,7 +4701,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d43d"
   },
   "title": "PowerShell in Practice",
@@ -4721,7 +4721,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d43e"
   },
   "title": "PowerShell and WMI",
@@ -4739,7 +4739,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d43f"
   },
   "title": "Making Sense of Java",
@@ -4765,7 +4765,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d440"
   },
   "title": "C++/CLI in Action",
@@ -4785,7 +4785,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d441"
   },
   "title": "C# in Depth",
@@ -4804,7 +4804,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d442"
   },
   "title": "C# in Depth, Second Edition",
@@ -4821,7 +4821,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d443"
   },
   "title": "Magical A-Life Avatars",
@@ -4842,7 +4842,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d444"
   },
   "title": "Becoming Agile",
@@ -4863,7 +4863,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d445"
   },
   "title": "ActiveMQ in Action",
@@ -4885,7 +4885,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d446"
   },
   "title": "Implementing PeopleSoft Financials",
@@ -4906,7 +4906,7 @@
     "Client-Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d447"
   },
   "title": "SQL Server DMVs in Action",
@@ -4926,7 +4926,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d448"
   },
   "title": "Scala in Depth",
@@ -4946,7 +4946,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d449"
   },
   "title": "JMX in Action",
@@ -4966,7 +4966,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d44a"
   },
   "title": "EJB Cookbook",
@@ -4987,7 +4987,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d44b"
   },
   "title": "GWT in Action, Second Edition",
@@ -5009,7 +5009,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d44c"
   },
   "title": "JUnit in Action, Second Edition",
@@ -5033,7 +5033,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d44d"
   },
   "title": "Bitter Java",
@@ -5054,7 +5054,7 @@
     "Client Server"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d44e"
   },
   "title": "Bitter EJB",
@@ -5078,7 +5078,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d44f"
   },
   "title": "Spring Batch in Action",
@@ -5099,7 +5099,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d450"
   },
   "title": "JDK 1.4 Tutorial",
@@ -5119,7 +5119,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d451"
   },
   "title": "iPhone and iPad in Action",
@@ -5142,7 +5142,7 @@
     "Mobile"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d452"
   },
   "title": "SQL Server 2005 Reporting Services in Action",
@@ -5161,7 +5161,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d453"
   },
   "title": "Ten Years of UserFriendly.Org",
@@ -5181,7 +5181,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d454"
   },
   "title": "Graphics Programming with Perl",
@@ -5201,7 +5201,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d455"
   },
   "title": "RabbitMQ in Action",
@@ -5220,7 +5220,7 @@
     "Software Engineering"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d456"
   },
   "title": "XDoclet in Action",
@@ -5241,7 +5241,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d457"
   },
   "title": "Spring in Action",
@@ -5262,7 +5262,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d458"
   },
   "title": "Spring in Action, Second Edition",
@@ -5281,7 +5281,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d459"
   },
   "title": "Spring in Action, Third Edition",
@@ -5301,7 +5301,7 @@
     "Java"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d45a"
   },
   "title": "Spring in Practice",
@@ -5322,7 +5322,7 @@
     "Software Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d45b"
   },
   "title": "Java 2 Micro Edition",
@@ -5343,7 +5343,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d45c"
   },
   "title": "SharePoint 2010 Workflows in Action",
@@ -5363,7 +5363,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d45d"
   },
   "title": "SharePoint 2010 Web Parts in Action",
@@ -5383,7 +5383,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d45e"
   },
   "title": "C++ Concurrency in Action",
@@ -5403,7 +5403,7 @@
     "Microsoft .NET"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d45f"
   },
   "title": "Java Servlets by Example",
@@ -5423,7 +5423,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d460"
   },
   "title": "XML Programming with VB and ASP",
@@ -5443,7 +5443,7 @@
     "Internet"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d461"
   },
   "title": "Oracle8i Database Administration",
@@ -5463,7 +5463,7 @@
     "Networking"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d462"
   },
   "title": "The Engaging Web",
@@ -5481,7 +5481,7 @@
     "Web Development"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d463"
   },
   "title": "Enterprise OSGi In Action",
@@ -5497,7 +5497,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d464"
   },
   "title": "Ext JS in Action, Second Edition",
@@ -5518,7 +5518,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d465"
   },
   "title": "Android in Action, Third Edition",
@@ -5539,7 +5539,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d466"
   },
   "title": "Arduino in Action",
@@ -5562,7 +5562,7 @@
     "Miscellaneous"
   ]
 },{
-  "_id": {
+  "id": {
     "$oid": "60730fb4c16174211869d467"
   },
   "title": "Node.js in Action",
