@@ -24,8 +24,10 @@ import view.JavaFX;
  * @author Hegoi
  */
 public class Main2 {
+
     public static SessionFactory sf = new Configuration().configure().buildSessionFactory();
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
         new Thread() {
             @Override
             public void run() {
@@ -33,6 +35,7 @@ public class Main2 {
             }
         }.start();
     }
+
     public static void datuaGordeMariaDB() {
         Scanner sn = new Scanner(System.in);
         int idBerria = 0;

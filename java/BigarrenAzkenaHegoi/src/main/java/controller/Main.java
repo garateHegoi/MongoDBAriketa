@@ -13,7 +13,6 @@ import static com.mongodb.client.model.Filters.all;
 import static com.mongodb.client.model.Filters.eq;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
@@ -24,13 +23,22 @@ import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
 import view.JavaFX;
 
+/**
+ *
+ * @author Hegoi
+ */
+
 public class Main {
+    
+    //Mongo konfigurazioa
 
     static CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(), fromProviders(PojoCodecProvider.builder().automatic(true).build()));
     static MongoClientSettings settings = MongoClientSettings.builder().codecRegistry(pojoCodecRegistry).build();
     static MongoClient mongoClient = MongoClients.create(settings);
     static MongoDatabase database = mongoClient.getDatabase("bigarrenAzkena");
     static MongoCollection<Book> collection = database.getCollection("books", Book.class);
+    
+    //aplikazioa hasi
 
     public static void main(String[] args) {
         new Thread() {
@@ -40,225 +48,243 @@ public class Main {
             }
         }.start();
     }
-
+    //Mongorekin dena irakurri
     public static void irakurriDena() {
 
-        try (MongoCursor<Book> cur = collection.find().iterator()) {
+        try ( MongoCursor<Book> cur = collection.find().iterator()) {
 
             System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-            System.out.printf("%20d | %20s | %20s | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
-                    "_id", "Title", "Isbn", "Page Count", "Published Date", "Thhumbnail Url", "Short Description", "Status", "Authors", "Categories");
+            System.out.printf("%5.5s | %20.20s | %30.30s | %20.20s | %40.40s | %20.20s | %50.50s | %10.10s | %30.30s | %10.10s%n",
+                    "Id", "Author", "Country", "Genres", "ImageLink", "Language", "Link", "Pages", "Title", "Year");
             System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
             while (cur.hasNext()) {
 
                 Book book = cur.next();
-                System.out.printf("%20d | %20s | %20s | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
-                        book.getId(), book.getTitle(), book.getIsbn(), book.getPageCount(), book.getPublishedDate(), book.getThumbnailUrl(), book.getShortDescription(), book.isStatus(), book.getAuthors(), book.getCategories());
+                System.out.printf("%5.5s | %20.20s | %30.30s | %20.20s | %40.40s | %20.20s | %50.50s | %10.10s | %30.30s | %10.10s%n",
+                        book.getNum(), book.getAuthor(), book.getCountry(), book.getGenres(), book.getImageLink(), book.getLanguage(), book.getLink(), book.getPages(), book.getTitle(), book.getYear());
             }
         }
-    }
 
+    }
+    //kategoriaz bilatu
     public static void irakurriGuztiaKategoriatik() {
-        String kategoria = "";
-        System.out.println("Zeinen kategoria ikusi nahi duzu? (idatzi dagokion zenbakia)");
-        System.out.println("1) Open Source");
-        System.out.println("2) Mobile");
-        System.out.println("3) Java");
-        System.out.println("4) Software Engineering");
-        System.out.println("5) Internet");
-        System.out.println("6) Miscellaneous");
-        System.out.println("7) Microsoft .NET");
-        System.out.println("8) Databases");
-        System.out.println("9) Client-Server");
-        System.out.println("10) Computer Graphics");
-        System.out.println("11) Web Development");
+        String genre = "";
+        System.out.println("Which genre do you want to display? (Write the corresponding number)");
+        System.out.println("1) Fantasy");
+        System.out.println("2) Historical");
+        System.out.println("3) Filosofical");
+        System.out.println("4) Mithological");
+        System.out.println("5) Biographical");
+        System.out.println("6) Mistery");
+        System.out.println("7) Poetry");
+        System.out.println("8) Fiction");
+        System.out.println("9) Novel");
+        System.out.println("10) Romance");
+        System.out.println("11) Horror");
         Scanner in = new Scanner(System.in);
         String choice = in.next();
         switch (choice) {
             case "1":
-                kategoria = "Open Source";
+                genre = "Fantasy";
                 break;
             case "2":
-                kategoria = "Mobile";
+                genre = "Historical";
                 break;
             case "3":
-                kategoria = "Java";
+                genre = "Filosofical";
                 break;
             case "4":
-                kategoria = "Software Engineering";
+                genre = "Mithological";
                 break;
             case "5":
-                kategoria = "Internet";
+                genre = "Biographical";
                 break;
             case "6":
-                kategoria = "Miscellaneous";
+                genre = "Mistery";
                 break;
             case "7":
-                kategoria = "Microsoft .NET";
+                genre = "Poetry";
                 break;
             case "8":
-                kategoria = "Databases";
+                genre = "Fiction";
                 break;
             case "9":
-                kategoria = "Client-Server";
+                genre = "Novel";
                 break;
             case "10":
-                kategoria = "Computer Graphics";
+                genre = "Romance";
                 break;
             case "11":
-                kategoria = "Web Development";
+                genre = "Horror";
                 break;
             default:
-                System.out.println("Sartu duzun aukera okerra da!");
+                System.out.println("That's not a valid choice!");
         }
 
-        if (!kategoria.equals("")) {
+        if (!genre.equals("")) {
 
-            try (MongoCursor<Book> cur = collection.find(all("kategoria", kategoria)).iterator()) {
+            try ( MongoCursor<Book> cur = collection.find(all("genres", genre)).iterator()) {
 
                 System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-                System.out.printf("%20d | %20s | %20d | %20s | %20s | %40s | %20s | %20s | %20s | %20s | %20s%n",
-                        "_id", "Title", "Isbn", "Page Count", "Published Date", "Thhumbnail Url", "Short Description", "Status", "Authors", "Categories");
+                System.out.printf("%5.5s | %20.20s | %30.30s | %20.20s | %40.40s | %20.20s | %50.50s | %10.10s | %30.30s | %10.10s%n",
+                        "Id", "Author", "Country", "Genres", "ImageLink", "Language", "Link", "Pages", "Title", "Year");
                 System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
                 while (cur.hasNext()) {
-
                     Book book = cur.next();
-                    if (book.getCategories().toString().contains(kategoria)) {
-                        System.out.printf("%20d | %5.5s | %20.20s | %30.30s | %20.20s | %40.40s | %20.20s | %50.50s | %10.10s | %30.30s | %10.10s%n",
-                                book.getId(), book.getTitle(), book.getIsbn(), book.getPageCount(), book.getPublishedDate(), book.getThumbnailUrl(), book.getShortDescription(), book.isStatus(), book.getAuthors(), book.getCategories());
+                    if (book.getGenres().toString().contains(genre)) {
+                        System.out.printf("%5.5s | %20.20s | %30.30s | %20.20s | %40.40s | %20.20s | %50.50s | %10.10s | %30.30s | %10.10s%n",
+                                book.getNum(), book.getAuthor(), book.getCountry(), book.getGenres(), book.getImageLink(), book.getLanguage(), book.getLink(), book.getPages(), book.getTitle(), book.getYear());
                     }
                 }
             }
         }
     }
-
+    //liburu bat sortu
     public static void liburuakSortu() {
         Scanner in = new Scanner(System.in);
         System.out.println("---------------------");
-        System.out.println("Baloreak sartu:");
+        System.out.println("Asign values to these fields:");
         System.out.println("---------------------");
         Book book = new Book();
-        Boolean isbnOndo = false, orriakOndo = false, dataOndo = false;
-        int isbn = 0, orriak = 0;
-        Date data;
-        List<String> kategoria = new ArrayList<>();
-        List<String> autoreak = new ArrayList<>();
+        Boolean idrRight = false, pagesRight = false, yearRight = false;
+        int id = 0, pages = 0, year = 0;
+        List<String> genres = new ArrayList<>();
         String trash;
         try {
-            while (!isbnOndo) {
-                System.out.println("Isbn:");
+            while (!idrRight) {
+                System.out.println("Id:");
                 try {
-                    isbn = in.nextInt();
-                    isbnOndo = true;
+                    id = in.nextInt();
+                    idrRight = true;
                 } catch (InputMismatchException ex) {
-                    System.out.println("Sartu duzun isbn ez da zenbaki bat!");
+                    System.out.println("The id must be a number!");
                     trash = in.next();
                 }
             }
-            book.setIsbn(isbn);
-            System.out.println("Titulua:");
+            book.setNum(id);
+            System.out.println("Title:");
             book.setTitle(in.next());
-            System.out.println("Autoreak (separatu komarekin):");
-            autoreak.addAll(Arrays.asList(in.next().split(",")));
-            book.setAuthors(autoreak);
-            System.out.println("Kategoria (separatu komarekin):");
-            kategoria.addAll(Arrays.asList(in.next().split(",")));
-            book.setCategories(kategoria);
-            System.out.println("Deskripzioa:");
-            book.setShortDescription(in.next());
-            System.out.println("Imagina Linka:");
-            book.setThumbnailUrl(in.next());
-            System.out.println("Aktibo estatua (true edo false):");
-            book.setStatus(in.nextBoolean());
-
-            while (!orriakOndo) {
-                System.out.println("Orri kopurua:");
+            System.out.println("Author:");
+            book.setAuthor(in.next());
+            System.out.println("Genres (separate by coma):");
+            genres.addAll(Arrays.asList(in.next().split(",")));
+            book.setGenres(genres);
+            System.out.println("Country:");
+            book.setCountry(in.next());
+            System.out.println("Image Link:");
+            book.setImageLink(in.next());
+            System.out.println("Language:");
+            book.setLanguage(in.next());
+            System.out.println("Link:");
+            book.setLink(in.next());
+            while (!pagesRight) {
+                System.out.println("Page amount:");
                 try {
-                    orriak = in.nextInt();
-                    orriakOndo = true;
+                    pages = in.nextInt();
+                    pagesRight = true;
                 } catch (InputMismatchException ex) {
-                    System.out.println("Orri kopurua zenbaki bat izan behar da!");
+                    System.out.println("The page amount must be a number!");
                     trash = in.next();
                 }
             }
-            book.setPageCount(orriak);
+            book.setPages(pages);
+            while (!yearRight) {
+                System.out.println("Year:");
+                try {
+                    year = in.nextInt();
+                    yearRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("The year must be a number!");
+                    trash = in.next();
+                }
+            }
+            book.setYear(year);
 
             collection.insertOne(book);
         } catch (MongoWriteException e) {
-            System.out.println("Liburu hau dagoeko existitzen da");
+            System.out.println("Thit book already exists");
         }
     }
-
+    //liburu bat aldatu
     public static void updateBook() {
         Scanner in = new Scanner(System.in);
         System.out.println("---------------------");
-        System.out.println("Baloreak sartu:");
+        System.out.println("Asign values to these fields:");
         System.out.println("---------------------");
         Book book = new Book();
-        Boolean isbnOndo = false, orriakOndo = false, dataOndo = false;
-        int isbn = 0, orriak = 0;
-        Date data;
-        List<String> kategoria = new ArrayList<>();
-        List<String> autoreak = new ArrayList<>();
+        Boolean idRight = false, pagesRight = false, yearRight = false;
+        int id = 0, pages = 0, year = 0;
+        List<String> genres = new ArrayList<>();
         String trash;
         try {
-            while (!isbnOndo) {
-                System.out.println("Isbn:");
+            while (!idRight) {
+                System.out.println("Id:");
                 try {
-                    isbn = in.nextInt();
-                    isbnOndo = true;
+                    id = in.nextInt();
+                    idRight = true;
                 } catch (InputMismatchException ex) {
-                    System.out.println("Sartu duzun isbn ez da zenbaki bat!");
+                    System.out.println("The id must be a number!");
                     trash = in.next();
                 }
             }
-            book.setIsbn(isbn);
-            System.out.println("Titulua:");
+            book.setNum(id);
+            System.out.println("Title:");
             book.setTitle(in.next());
-            System.out.println("Autoreak (separatu komarekin):");
-            autoreak.addAll(Arrays.asList(in.next().split(",")));
-            book.setAuthors(autoreak);
-            System.out.println("Kategoria (separatu komarekin):");
-            kategoria.addAll(Arrays.asList(in.next().split(",")));
-            book.setCategories(kategoria);
-            System.out.println("Deskripzioa:");
-            book.setShortDescription(in.next());
-            System.out.println("Imagina Linka:");
-            book.setThumbnailUrl(in.next());
-            System.out.println("Aktibo estatua (true edo false):");
-            book.setStatus(in.nextBoolean());
-
-            while (!orriakOndo) {
-                System.out.println("Orri kopurua:");
+            System.out.println("Author:");
+            book.setAuthor(in.next());
+            System.out.println("Genres (separate by coma):");
+            genres.addAll(Arrays.asList(in.next().split(",")));
+            book.setGenres(genres);
+            System.out.println("Country:");
+            book.setCountry(in.next());
+            System.out.println("Image Link:");
+            book.setImageLink(in.next());
+            System.out.println("Language:");
+            book.setLanguage(in.next());
+            System.out.println("Link:");
+            book.setLink(in.next());
+            while (!pagesRight) {
+                System.out.println("Page amount:");
                 try {
-                    orriak = in.nextInt();
-                    orriakOndo = true;
+                    pages = in.nextInt();
+                    pagesRight = true;
                 } catch (InputMismatchException ex) {
-                    System.out.println("Orri kopurua zenbaki bat izan behar da!");
+                    System.out.println("The page amount must be a number!");
                     trash = in.next();
                 }
             }
-            book.setPageCount(orriak);
+            book.setPages(pages);
+            while (!yearRight) {
+                System.out.println("Year:");
+                try {
+                    year = in.nextInt();
+                    yearRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("The year must be a number!");
+                    trash = in.next();
+                }
+            }
+            book.setYear(year);
 
-            collection.replaceOne(eq("num", isbn), book);
+            collection.replaceOne(eq("num", id), book);
         } catch (MongoCommandException e) {
-            System.out.println("Liburu hau dagoeko existitzen da");
+            System.out.println("This book already exists");
         }
     }
-
+    //liburu bat ezabatu
     public static void deleteBook() {
         Scanner in = new Scanner(System.in);
         try {
-            System.out.println("Liburuaren isbn-a sartu:");
-            int isbn = in.nextInt();
+            System.out.println("Enter the books id:");
+            int id = in.nextInt();
 
-            collection.deleteOne(Filters.eq("isbn", isbn));
-            System.out.println("Liburua ondo ezabatu da");
+            collection.deleteOne(Filters.eq("num", id));
+            System.out.println("The book has been properly deleted");
 
         } catch (MongoCommandException e) {
-            System.out.println("Sartu duzun isbn-a ez da existitzen");
+            System.out.println("The book you tried to delete does not exist");
         }
     }
 }
