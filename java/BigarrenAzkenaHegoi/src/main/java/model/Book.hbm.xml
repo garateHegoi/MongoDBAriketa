@@ -12,6 +12,6 @@
         <id column="_id" name="_id">
             <generator class="increment"/>
         </id>
-        <property column="Name" generated="never" lazy="false" name="Name"/>
+        <property column="num" generated="never" lazy="false" name="num"/>
     </class>
 </hibernate-mapping>

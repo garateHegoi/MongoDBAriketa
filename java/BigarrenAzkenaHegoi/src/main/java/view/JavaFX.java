@@ -14,7 +14,12 @@ public class JavaFX extends Application {
     
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Liburuak gestionatzeko menua");
+        GridPane gridPane = new GridPane();
+        gridPane.setMinSize(1000, 500);
+        gridPane.setPadding(new Insets(50, 50, 50, 50));
+        gridPane.setVgap(10);
+        gridPane.setHgap(10);
+        gridPane.setAlignment(Pos.CENTER);
         
         Button btn1 = new Button();
         btn1.setText("Datu Guztiak erakutsi");
@@ -67,31 +72,31 @@ public class JavaFX extends Application {
         });
         
         Button btn6 = new Button();
-        btn5.setText("Liburuak Ikusi MariaDB-rekin");
-        btn5.setOnAction(new EventHandler<ActionEvent>() {
+        btn6.setText("Liburu guztiak ikusi MariaDB");
+        btn6.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                controller.Main2.datuakIkusiMariaDB();
+                controller.Main.datuakIkusiMariaDB();
             }
             
         });
         
         Button btn7 = new Button();
-        btn5.setText("Liburu bat ezabatu");
-        btn5.setOnAction(new EventHandler<ActionEvent>() {
+        btn7.setText("Liburu bat gorde MariaDB");
+        btn7.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                controller.Main2.datuaGordeMariaDB();
+                controller.Main.datuaGordeMariaDB();
             }
             
         });
         
         Button btn8 = new Button();
-        btn5.setText("Liburu bat ezabatu");
-        btn5.setOnAction(new EventHandler<ActionEvent>() {
+        btn8.setText("Liburu kendu MariaDB");
+        btn8.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                controller.Main2.datuakKenduMariaDB();
+                controller.Main.datuakKenduMariaDB();
             }
             
         });
@@ -114,20 +119,15 @@ public class JavaFX extends Application {
         btn7.setStyle("-fx-font: normal bold 20px 'serif' ");
         btn8.setStyle("-fx-font: normal bold 20px 'serif' ");
         
-        GridPane gridPane = new GridPane();
-        gridPane.setMinSize(800, 400);
-        gridPane.setPadding(new Insets(10, 10, 10, 10));
-        gridPane.setVgap(5);
-        gridPane.setHgap(5);
-        gridPane.setAlignment(Pos.CENTER);
+        
         gridPane.add(btn1, 0, 0);
         gridPane.add(btn2, 1, 0);
         gridPane.add(btn3, 0, 1);
         gridPane.add(btn4, 1, 1);
         gridPane.add(btn5, 0, 2);
         gridPane.add(btn6, 1, 2);
-        gridPane.add(btn7, 2, 0);
-        gridPane.add(btn8, 2, 1);
+        gridPane.add(btn7, 0, 3);
+        gridPane.add(btn8, 1, 3);
         gridPane.setStyle("-fx-background-color: BEIGE;");
         
         Scene scene = new Scene(gridPane);

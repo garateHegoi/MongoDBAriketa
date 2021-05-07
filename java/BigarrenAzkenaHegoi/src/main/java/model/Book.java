@@ -14,23 +14,72 @@ import org.bson.types.ObjectId;
  */
 public class Book {
 
-    //Bariableak declaratu
+    /**
+     *id-a deklaratu
+     */
     public ObjectId _id;
+
+    /**
+     *zenbakia deklaratu
+     */
     public int num;
+
+    /**
+     *autorea deklaratu
+     */
     public String author;
+
+    /**
+     *probintzia deklaratu
+     */
     public String country;
+
+    /**
+     *generoak deklaratu
+     */
     public List<String> genres;
+
+    /**
+     *imagina deklaratu
+     */
     public String imageLink;
+
+    /**
+     *hizkuntza deklaratu
+     */
     public String language;
+
+    /**
+     *linka deklaratu
+     */
     public String link;
+
+    /**
+     *orri kopurua deklaratu
+     */
     public int pages;
+
+    /**
+     *titulua deklaratu
+     */
     public String title;
+
+    /**
+     *urtea deklaratu
+     */
     public int year;
     
     //Konstruktore utza
+
+    /**
+     *konstruktore utza
+     */
     public Book() {
     }
-    //Konstruktorea hasieratu
+
+    /**
+     *konstruktorea hasieratu
+     */
     public Book(ObjectId _id, int num, String author, String country, List<String> genres, String imageLink, String language, String link, int pages, String title, int year) {
         this._id = _id;
         this.num = num;
@@ -44,7 +93,7 @@ public class Book {
         this.title = title;
         this.year = year;
     }
-
+    
     public Book(int num, String author, String country, List<String> genres, String imageLink, String language, String link, int pages, String title, int year) {
         this.num = num;
         this.author = author;
@@ -57,95 +106,187 @@ public class Book {
         this.title = title;
         this.year = year;
     }
-    //Id aren getterra
+
+    /**
+     *
+     * Id aren getterra
+     */
     public ObjectId getId() {
         return _id;
     }
-    //Zenbakiaren getterra
+
+    /**
+     *
+     * zenbakiaren getterra
+     */
     public int getNum() {
         return num;
     }
-    //Autoreen getterra
+
+    /**
+     *
+     * autorearen getterra
+     */
     public String getAuthor() {
         return author;
     }
-    //Herrialdearen getterra 
+
+    /**
+     *
+     * herrialdearen getterra
+     */
     public String getCountry() {
         return country;
     }
-    //Generoen getterra
+
+    /**
+     *
+     * generoen getterra
+     */
     public List<String> getGenres() {
         return genres;
     }
-    //imaginaren getterra
+
+    /**
+     *
+     * imaginaren getterra
+     */
     public String getImageLink() {
         return imageLink;
     }
-    //hizkuntzzaren getterra
+
+    /**
+     *
+     * hizkuntzaren getterra
+     */
     public String getLanguage() {
         return language;
     }
-    // linkarren getterra
+
+    /**
+     *
+     * linkaren getterra
+     */
     public String getLink() {
         return link;
     }
-    //orrien getterra
+
+    /**
+     *
+     * orrien getterra
+     */
     public int getPages() {
         return pages;
     }
-    //tituluaren getterra
+
+    /**
+     *
+     * tituluaren getterra
+     */
     public String getTitle() {
         return title;
     }
-    //urtea getterra
+
+    /**
+     *
+     * urtearen getterra
+     */
     public int getYear() {
         return year;
     }
-    //id setterra
+
+    /**
+     *
+     * id-aren setterra
+     */
     public void setId(ObjectId _id) {
         this._id = _id;
     }
-    //zenbakiaren setterra
+
+    /**
+     *
+     * zenbakiaren setterra
+     */
     public void setNum(int num) {
         this.num = num;
     }
-    //autorearen setterra
+
+    /**
+     *
+     * autorearen setterra
+     */
     public void setAuthor(String author) {
         this.author = author;
     }
-    //probintzia setterra
+
+    /**
+     *
+     * probintziaren setterra
+     */
     public void setCountry(String country) {
         this.country = country;
     }
-    //generoen setterra
+
+    /**
+     *
+     * generoaren setterra
+     */
     public void setGenres(List<String> genres) {
         this.genres = genres;
     }
-    //imgaina getterra
+
+    /**
+     *
+     * imaginaren setterra
+     */
     public void setImageLink(String imageLink) {
         this.imageLink = imageLink;
     }
-    //hizkuntza setterra
+
+    /**
+     *
+     * hinkuntzaren setterra
+     */
     public void setLanguage(String language) {
         this.language = language;
     }
-    //linka setterra
+
+    /**
+     *
+     * linkaren setterra
+     */
     public void setLink(String link) {
         this.link = link;
     }
-    //orri setterra
+
+    /**
+     *
+     * orriaren setterra
+     */
     public void setPages(int pages) {
         this.pages = pages;
     }
-    //tituluen setterra
+
+    /**
+     *
+     * tituluaren setterra
+     */
     public void setTitle(String title) {
         this.title = title;
     }
-    //urteen setterra
+
+    /**
+     *
+     * urtearen setterra
+     */
     public void setYear(int year) {
         this.year = year;
     }
-    //tostringa
+
+    /**
+     *
+     * toString-a
+     */
     @Override
     public String toString() {
         return "Book{" + "_id=" + _id + ", num=" + num + ", author=" + author + ", country=" + country + ", genres=" + genres + ", imageLink=" + imageLink + ", language=" + language + ", link=" + link + ", pages=" + pages + ", title=" + title + ", year=" + year + '}';
