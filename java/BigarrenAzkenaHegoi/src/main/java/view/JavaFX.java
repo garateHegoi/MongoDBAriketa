@@ -1,4 +1,4 @@
-package controller;
+package view;
 
 import javafx.application.Application;
 import static javafx.application.Application.launch;
@@ -26,7 +26,7 @@ public class JavaFX extends Application {
         btn1.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.irakurriDena();
+                controller.Main.irakurriDena();
             }
             
         });
@@ -36,7 +36,7 @@ public class JavaFX extends Application {
         btn2.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.irakurriGuztiaKategoriatik();
+                controller.Main.irakurriGuztiaKategoriatik();
             }
             
         });
@@ -46,7 +46,7 @@ public class JavaFX extends Application {
         btn3.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.liburuakSortu();
+                controller.Main.liburuakSortu();
             }
             
         });
@@ -56,7 +56,7 @@ public class JavaFX extends Application {
         btn4.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.updateBook();
+                controller.Main.updateBook();
             }
             
         });
@@ -66,7 +66,7 @@ public class JavaFX extends Application {
         btn5.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.deleteBook();
+                controller.Main.deleteBook();
             }
             
         });
@@ -76,7 +76,7 @@ public class JavaFX extends Application {
         btn5.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.datuakIkusiMariaDB();
+                controller.Main2.datuakIkusiMariaDB();
             }
             
         });
@@ -86,7 +86,7 @@ public class JavaFX extends Application {
         btn5.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.datuaGordeMariaDB();
+                controller.Main2.datuaGordeMariaDB();
             }
             
         });
@@ -96,7 +96,7 @@ public class JavaFX extends Application {
         btn5.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                view.Main.datuakKenduMariaDB();
+                controller.Main2.datuakKenduMariaDB();
             }
             
         });
@@ -120,7 +120,7 @@ public class JavaFX extends Application {
         btn8.setStyle("-fx-font: normal bold 20px 'serif' ");
         
         GridPane gridPane = new GridPane();
-        gridPane.setMinSize(400, 200);
+        gridPane.setMinSize(800, 400);
         gridPane.setPadding(new Insets(10, 10, 10, 10));
         gridPane.setVgap(5);
         gridPane.setHgap(5);
