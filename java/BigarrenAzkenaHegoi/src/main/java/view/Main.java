@@ -1,6 +1,10 @@
 package view;
 
 import antlr.Utils;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.csv.CsvMapper;
+import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.MongoCommandException;
 import com.mongodb.MongoWriteException;
@@ -14,6 +18,7 @@ import static com.mongodb.client.model.Filters.all;
 import static com.mongodb.client.model.Filters.eq;
 import com.mysql.cj.xdevapi.SessionFactory;
 import controller.*;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -302,7 +307,7 @@ public class Main {
         }
     }
 
-    private static void datuakKenduMariaDB() {
+    public static void datuakKenduMariaDB() {
         Scanner sn = new Scanner(System.in);
         int idArtistaEzabatu;
         System.out.println("Sartu ezabatu nahi duzun artistaren ID-a: ");
@@ -315,5 +320,23 @@ public class Main {
         saoia.getTransaction().commit();
         System.out.println("Artista ondo ezabatuta!!!");
         saoia.close();
+    }
+
+    public static void JsonToCsv(File jsonFile, File csvFile) throws IOException {
+        JsonNode jsonTree = new ObjectMapper().readTree(jsonFile);
+
+        CsvSchema.Builder csvSchemaBuilder = CsvSchema.builder();
+        JsonNode firstObject = jsonTree.elements().next();
+        firstObject.fieldNames().forEachRemaining(fieldName -> {
+            csvSchemaBuilder.addColumn(fieldName);
+        });
+        CsvSchema csvSchema = csvSchemaBuilder
+                .build()
+                .withHeader();
+
+        CsvMapper csvMapper = new CsvMapper();
+        csvMapper.writerFor(JsonNode.class)
+                .with(csvSchema)
+                .writeValue(csvFile, jsonTree);
     }
 }
