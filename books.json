@@ -1,8 +1,6 @@
 [
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e04"
-    },
+    "_id": "60015c93254d7a0b28473e04",
     "num": 1,
     "author": "Chinua Achebe",
     "country": "Nigeria",
@@ -15,9 +13,7 @@
     "year": 1958
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e05"
-    },
+    "_id": "60015c93254d7a0b28473e05",
     "num": 2,
     "author": "Hans Christian Andersen",
     "country": "Denmark",
@@ -30,9 +26,7 @@
     "year": 1836
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e06"
-    },
+    "_id": "60015c93254d7a0b28473e06",
     "num": 3,
     "author": "Dante Alighieri",
     "country": "Italy",
@@ -45,9 +39,7 @@
     "year": 1315
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e07"
-    },
+    "_id": "60015c93254d7a0b28473e07",
     "num": 4,
     "author": "Unknown",
     "country": "Sumer and Akkadian Empire",
@@ -60,9 +52,7 @@
     "year": -1700
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e08"
-    },
+    "_id": "60015c93254d7a0b28473e08",
     "num": 5,
     "author": "Unknown",
     "country": "Achaemenid Empire",
@@ -75,9 +65,7 @@
     "year": -600
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e09"
-    },
+    "_id": "60015c93254d7a0b28473e09",
     "num": 6,
     "author": "Unknown",
     "country": "India/Iran/Iraq/Egypt/Tajikistan",
@@ -90,9 +78,7 @@
     "year": 1200
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e0a"
-    },
+    "_id": "60015c93254d7a0b28473e0a",
     "num": 7,
     "author": "Unknown",
     "country": "Iceland",
@@ -105,9 +91,7 @@
     "year": 1350
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e0b"
-    },
+    "_id": "60015c93254d7a0b28473e0b",
     "num": 8,
     "author": "Jane Austen",
     "country": "United Kingdom",
@@ -120,9 +104,7 @@
     "year": 1813
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e0c"
-    },
+    "_id": "60015c93254d7a0b28473e0c",
     "num": 9,
     "author": "Honoré de Balzac",
     "country": "France",
@@ -135,9 +117,7 @@
     "year": 1835
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e0d"
-    },
+    "_id": "60015c93254d7a0b28473e0d",
     "num": 10,
     "author": "Samuel Beckett",
     "country": "Republic of Ireland",
@@ -150,9 +130,7 @@
     "year": 1952
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e0e"
-    },
+    "_id": "60015c93254d7a0b28473e0e",
     "num": 11,
     "author": "Giovanni Boccaccio",
     "country": "Italy",
@@ -165,9 +143,7 @@
     "year": 1351
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e0f"
-    },
+    "_id": "60015c93254d7a0b28473e0f",
     "num": 12,
     "author": "Jorge Luis Borges",
     "country": "Argentina",
@@ -180,9 +156,7 @@
     "year": 1965
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e10"
-    },
+    "_id": "60015c93254d7a0b28473e10",
     "num": 13,
     "author": "Emily Brontë",
     "country": "United Kingdom",
@@ -195,9 +169,7 @@
     "year": 1847
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e11"
-    },
+    "_id": "60015c93254d7a0b28473e11",
     "num": 14,
     "author": "Albert Camus",
     "country": "Algeria, French Empire",
@@ -210,9 +182,7 @@
     "year": 1942
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e12"
-    },
+    "_id": "60015c93254d7a0b28473e12",
     "num": 15,
     "author": "Paul Celan",
     "country": "Romania, France",
@@ -225,9 +195,7 @@
     "year": 1952
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e13"
-    },
+    "_id": "60015c93254d7a0b28473e13",
     "num": 16,
     "author": "Louis-Ferdinand Céline",
     "country": "France",
@@ -240,9 +208,7 @@
     "year": 1932
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e14"
-    },
+    "_id": "60015c93254d7a0b28473e14",
     "num": 17,
     "author": "Miguel de Cervantes",
     "country": "Spain",
@@ -255,9 +221,7 @@
     "year": 1610
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e15"
-    },
+    "_id": "60015c93254d7a0b28473e15",
     "num": 18,
     "author": "Geoffrey Chaucer",
     "country": "England",
@@ -270,9 +234,7 @@
     "year": 1450
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e16"
-    },
+    "_id": "60015c93254d7a0b28473e16",
     "num": 19,
     "author": "Anton Chekhov",
     "country": "Russia",
@@ -285,9 +247,7 @@
     "year": 1886
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e17"
-    },
+    "_id": "60015c93254d7a0b28473e17",
     "num": 20,
     "author": "Joseph Conrad",
     "country": "United Kingdom",
@@ -300,9 +260,7 @@
     "year": 1904
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e18"
-    },
+    "_id": "60015c93254d7a0b28473e18",
     "num": 21,
     "author": "Charles Dickens",
     "country": "United Kingdom",
@@ -315,9 +273,7 @@
     "year": 1861
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e19"
-    },
+    "_id": "60015c93254d7a0b28473e19",
     "num": 22,
     "author": "Denis Diderot",
     "country": "France",
@@ -330,9 +286,7 @@
     "year": 1796
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e1a"
-    },
+    "_id": "60015c93254d7a0b28473e1a",
     "num": 23,
     "author": "Alfred Döblin",
     "country": "Germany",
@@ -345,9 +299,7 @@
     "year": 1929
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e1b"
-    },
+    "_id": "60015c93254d7a0b28473e1b",
     "num": 24,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
@@ -360,9 +312,7 @@
     "year": 1866
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e1c"
-    },
+    "_id": "60015c93254d7a0b28473e1c",
     "num": 25,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
@@ -375,9 +325,7 @@
     "year": 1869
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e1d"
-    },
+    "_id": "60015c93254d7a0b28473e1d",
     "num": 26,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
@@ -390,9 +338,7 @@
     "year": 1872
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e1e"
-    },
+    "_id": "60015c93254d7a0b28473e1e",
     "num": 27,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
@@ -405,9 +351,7 @@
     "year": 1880
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e1f"
-    },
+    "_id": "60015c93254d7a0b28473e1f",
     "num": 28,
     "author": "George Eliot",
     "country": "United Kingdom",
@@ -420,9 +364,7 @@
     "year": 1871
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e20"
-    },
+    "_id": "60015c93254d7a0b28473e20",
     "num": 29,
     "author": "Ralph Ellison",
     "country": "United States",
@@ -435,9 +377,7 @@
     "year": 1952
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e21"
-    },
+    "_id": "60015c93254d7a0b28473e21",
     "num": 30,
     "author": "Euripides",
     "country": "Greece",
@@ -450,9 +390,7 @@
     "year": -431
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e22"
-    },
+    "_id": "60015c93254d7a0b28473e22",
     "num": 31,
     "author": "William Faulkner",
     "country": "United States",
@@ -465,9 +403,7 @@
     "year": 1936
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e23"
-    },
+    "_id": "60015c93254d7a0b28473e23",
     "num": 32,
     "author": "William Faulkner",
     "country": "United States",
@@ -480,9 +416,7 @@
     "year": 1929
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e24"
-    },
+    "_id": "60015c93254d7a0b28473e24",
     "num": 33,
     "author": "Gustave Flaubert",
     "country": "France",
@@ -495,9 +429,7 @@
     "year": 1857
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e25"
-    },
+    "_id": "60015c93254d7a0b28473e25",
     "num": 34,
     "author": "Gustave Flaubert",
     "country": "France",
@@ -510,9 +442,7 @@
     "year": 1869
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e26"
-    },
+    "_id": "60015c93254d7a0b28473e26",
     "num": 35,
     "author": "Federico García Lorca",
     "country": "Spain",
@@ -525,9 +455,7 @@
     "year": 1928
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e27"
-    },
+    "_id": "60015c93254d7a0b28473e27",
     "num": 36,
     "author": "Gabriel García Márquez",
     "country": "Colombia",
@@ -540,9 +468,7 @@
     "year": 1967
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e28"
-    },
+    "_id": "60015c93254d7a0b28473e28",
     "num": 37,
     "author": "Gabriel García Márquez",
     "country": "Colombia",
@@ -555,9 +481,7 @@
     "year": 1985
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e29"
-    },
+    "_id": "60015c93254d7a0b28473e29",
     "num": 38,
     "author": "Johann Wolfgang von Goethe",
     "country": "Saxe-Weimar",
@@ -570,9 +494,7 @@
     "year": 1832
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e2a"
-    },
+    "_id": "60015c93254d7a0b28473e2a",
     "num": 39,
     "author": "Nikolai Gogol",
     "country": "Russia",
@@ -585,9 +507,7 @@
     "year": 1842
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e2b"
-    },
+    "_id": "60015c93254d7a0b28473e2b",
     "num": 40,
     "author": "Günter Grass",
     "country": "Germany",
@@ -600,9 +520,7 @@
     "year": 1959
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e2c"
-    },
+    "_id": "60015c93254d7a0b28473e2c",
     "num": 41,
     "author": "João Guimarães Rosa",
     "country": "Brazil",
@@ -615,9 +533,7 @@
     "year": 1956
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e2d"
-    },
+    "_id": "60015c93254d7a0b28473e2d",
     "num": 42,
     "author": "Knut Hamsun",
     "country": "Norway",
@@ -630,9 +546,7 @@
     "year": 1890
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e2e"
-    },
+    "_id": "60015c93254d7a0b28473e2e",
     "num": 43,
     "author": "Ernest Hemingway",
     "country": "United States",
@@ -645,9 +559,7 @@
     "year": 1952
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e2f"
-    },
+    "_id": "60015c93254d7a0b28473e2f",
     "num": 44,
     "author": "Homer",
     "country": "Greece",
@@ -660,9 +572,7 @@
     "year": -735
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e30"
-    },
+    "_id": "60015c93254d7a0b28473e30",
     "num": 45,
     "author": "Homer",
     "country": "Greece",
@@ -675,9 +585,7 @@
     "year": -800
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e31"
-    },
+    "_id": "60015c93254d7a0b28473e31",
     "num": 46,
     "author": "Henrik Ibsen",
     "country": "Norway",
@@ -690,9 +598,7 @@
     "year": 1879
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e32"
-    },
+    "_id": "60015c93254d7a0b28473e32",
     "num": 47,
     "author": "James Joyce",
     "country": "Irish Free State",
@@ -705,9 +611,7 @@
     "year": 1922
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e33"
-    },
+    "_id": "60015c93254d7a0b28473e33",
     "num": 48,
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
@@ -720,9 +624,7 @@
     "year": 1924
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e34"
-    },
+    "_id": "60015c93254d7a0b28473e34",
     "num": 49,
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
@@ -735,9 +637,7 @@
     "year": 1925
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e35"
-    },
+    "_id": "60015c93254d7a0b28473e35",
     "num": 50,
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
@@ -750,9 +650,7 @@
     "year": 1926
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e36"
-    },
+    "_id": "60015c93254d7a0b28473e36",
     "num": 51,
     "author": "Kālidāsa",
     "country": "India",
@@ -765,9 +663,7 @@
     "year": 150
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e37"
-    },
+    "_id": "60015c93254d7a0b28473e37",
     "num": 52,
     "author": "Yasunari Kawabata",
     "country": "Japan",
@@ -780,9 +676,7 @@
     "year": 1954
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e38"
-    },
+    "_id": "60015c93254d7a0b28473e38",
     "num": 53,
     "author": "Nikos Kazantzakis",
     "country": "Greece",
@@ -795,9 +689,7 @@
     "year": 1946
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e39"
-    },
+    "_id": "60015c93254d7a0b28473e39",
     "num": 54,
     "author": "D. H. Lawrence",
     "country": "United Kingdom",
@@ -810,9 +702,7 @@
     "year": 1913
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e3a"
-    },
+    "_id": "60015c93254d7a0b28473e3a",
     "num": 55,
     "author": "Halldór Laxness",
     "country": "Iceland",
@@ -825,9 +715,7 @@
     "year": 1934
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e3b"
-    },
+    "_id": "60015c93254d7a0b28473e3b",
     "num": 56,
     "author": "Giacomo Leopardi",
     "country": "Italy",
@@ -840,9 +728,7 @@
     "year": 1818
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e3c"
-    },
+    "_id": "60015c93254d7a0b28473e3c",
     "num": 57,
     "author": "Doris Lessing",
     "country": "United Kingdom",
@@ -855,9 +741,7 @@
     "year": 1962
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e3d"
-    },
+    "_id": "60015c93254d7a0b28473e3d",
     "num": 58,
     "author": "Astrid Lindgren",
     "country": "Sweden",
@@ -870,9 +754,7 @@
     "year": 1945
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e3e"
-    },
+    "_id": "60015c93254d7a0b28473e3e",
     "num": 59,
     "author": "Lu Xun",
     "country": "China",
@@ -885,9 +767,7 @@
     "year": 1918
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e3f"
-    },
+    "_id": "60015c93254d7a0b28473e3f",
     "num": 60,
     "author": "Naguib Mahfouz",
     "country": "Egypt",
@@ -900,9 +780,7 @@
     "year": 1959
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e40"
-    },
+    "_id": "60015c93254d7a0b28473e40",
     "num": 61,
     "author": "Thomas Mann",
     "country": "Germany",
@@ -915,9 +793,7 @@
     "year": 1901
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e41"
-    },
+    "_id": "60015c93254d7a0b28473e41",
     "num": 62,
     "author": "Thomas Mann",
     "country": "Germany",
@@ -930,9 +806,7 @@
     "year": 1924
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e42"
-    },
+    "_id": "60015c93254d7a0b28473e42",
     "num": 63,
     "author": "Herman Melville",
     "country": "United States",
@@ -945,9 +819,7 @@
     "year": 1851
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e43"
-    },
+    "_id": "60015c93254d7a0b28473e43",
     "num": 64,
     "author": "Michel de Montaigne",
     "country": "France",
@@ -960,9 +832,7 @@
     "year": 1595
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e44"
-    },
+    "_id": "60015c93254d7a0b28473e44",
     "num": 65,
     "author": "Elsa Morante",
     "country": "Italy",
@@ -975,9 +845,7 @@
     "year": 1974
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e45"
-    },
+    "_id": "60015c93254d7a0b28473e45",
     "num": 66,
     "author": "Toni Morrison",
     "country": "United States",
@@ -990,9 +858,7 @@
     "year": 1987
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e46"
-    },
+    "_id": "60015c93254d7a0b28473e46",
     "num": 67,
     "author": "Murasaki Shikibu",
     "country": "Japan",
@@ -1005,9 +871,7 @@
     "year": 1006
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e47"
-    },
+    "_id": "60015c93254d7a0b28473e47",
     "num": 68,
     "author": "Robert Musil",
     "country": "Austria",
@@ -1020,9 +884,7 @@
     "year": 1931
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e48"
-    },
+    "_id": "60015c93254d7a0b28473e48",
     "num": 69,
     "author": "Vladimir Nabokov",
     "country": "Russia/United States",
@@ -1035,9 +897,7 @@
     "year": 1955
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e49"
-    },
+    "_id": "60015c93254d7a0b28473e49",
     "num": 70,
     "author": "George Orwell",
     "country": "United Kingdom",
@@ -1050,9 +910,7 @@
     "year": 1949
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e4a"
-    },
+    "_id": "60015c93254d7a0b28473e4a",
     "num": 71,
     "author": "Ovid",
     "country": "Roman Empire",
@@ -1065,9 +923,7 @@
     "year": 100
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e4b"
-    },
+    "_id": "60015c93254d7a0b28473e4b",
     "num": 72,
     "author": "Fernando Pessoa",
     "country": "Portugal",
@@ -1080,9 +936,7 @@
     "year": 1928
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e4c"
-    },
+    "_id": "60015c93254d7a0b28473e4c",
     "num": 73,
     "author": "Edgar Allan Poe",
     "country": "United States",
@@ -1095,9 +949,7 @@
     "year": 1950
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e4d"
-    },
+    "_id": "60015c93254d7a0b28473e4d",
     "num": 74,
     "author": "Marcel Proust",
     "country": "France",
@@ -1110,9 +962,7 @@
     "year": 1920
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e4e"
-    },
+    "_id": "60015c93254d7a0b28473e4e",
     "num": 75,
     "author": "François Rabelais",
     "country": "France",
@@ -1125,9 +975,7 @@
     "year": 1533
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e4f"
-    },
+    "_id": "60015c93254d7a0b28473e4f",
     "num": 76,
     "author": "Juan Rulfo",
     "country": "Mexico",
@@ -1140,9 +988,7 @@
     "year": 1955
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e50"
-    },
+    "_id": "60015c93254d7a0b28473e50",
     "num": 77,
     "author": "Rumi",
     "country": "Sultanate of Rum",
@@ -1155,9 +1001,7 @@
     "year": 1236
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e51"
-    },
+    "_id": "60015c93254d7a0b28473e51",
     "num": 78,
     "author": "Salman Rushdie",
     "country": "United Kingdom, India",
@@ -1170,9 +1014,7 @@
     "year": 1981
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e52"
-    },
+    "_id": "60015c93254d7a0b28473e52",
     "num": 79,
     "author": "Saadi",
     "country": "Persia, Persian Empire",
@@ -1185,9 +1027,7 @@
     "year": 1257
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e53"
-    },
+    "_id": "60015c93254d7a0b28473e53",
     "num": 80,
     "author": "Tayeb Salih",
     "country": "Sudan",
@@ -1200,9 +1040,7 @@
     "year": 1966
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e54"
-    },
+    "_id": "60015c93254d7a0b28473e54",
     "num": 81,
     "author": "José Saramago",
     "country": "Portugal",
@@ -1215,9 +1053,7 @@
     "year": 1995
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e55"
-    },
+    "_id": "60015c93254d7a0b28473e55",
     "num": 82,
     "author": "William Shakespeare",
     "country": "England",
@@ -1230,9 +1066,7 @@
     "year": 1603
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e56"
-    },
+    "_id": "60015c93254d7a0b28473e56",
     "num": 83,
     "author": "William Shakespeare",
     "country": "England",
@@ -1245,9 +1079,7 @@
     "year": 1608
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e57"
-    },
+    "_id": "60015c93254d7a0b28473e57",
     "num": 84,
     "author": "William Shakespeare",
     "country": "England",
@@ -1260,9 +1092,7 @@
     "year": 1609
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e58"
-    },
+    "_id": "60015c93254d7a0b28473e58",
     "num": 85,
     "author": "Sophocles",
     "country": "Greece",
@@ -1275,9 +1105,7 @@
     "year": -430
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e59"
-    },
+    "_id": "60015c93254d7a0b28473e59",
     "num": 86,
     "author": "Stendhal",
     "country": "France",
@@ -1290,9 +1118,7 @@
     "year": 1830
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e5a"
-    },
+    "_id": "60015c93254d7a0b28473e5a",
     "num": 87,
     "author": "Laurence Sterne",
     "country": "England",
@@ -1305,9 +1131,7 @@
     "year": 1760
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e5b"
-    },
+    "_id": "60015c93254d7a0b28473e5b",
     "num": 88,
     "author": "Italo Svevo",
     "country": "Italy",
@@ -1320,9 +1144,7 @@
     "year": 1923
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e5c"
-    },
+    "_id": "60015c93254d7a0b28473e5c",
     "num": 89,
     "author": "Jonathan Swift",
     "country": "Ireland",
@@ -1335,9 +1157,7 @@
     "year": 1726
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e5d"
-    },
+    "_id": "60015c93254d7a0b28473e5d",
     "num": 90,
     "author": "Leo Tolstoy",
     "country": "Russia",
@@ -1350,9 +1170,7 @@
     "year": 1867
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e5e"
-    },
+    "_id": "60015c93254d7a0b28473e5e",
     "num": 91,
     "author": "Leo Tolstoy",
     "country": "Russia",
@@ -1365,9 +1183,7 @@
     "year": 1877
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e5f"
-    },
+    "_id": "60015c93254d7a0b28473e5f",
     "num": 92,
     "author": "Leo Tolstoy",
     "country": "Russia",
@@ -1380,9 +1196,7 @@
     "year": 1886
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e60"
-    },
+    "_id": "60015c93254d7a0b28473e60",
     "num": 93,
     "author": "Mark Twain",
     "country": "United States",
@@ -1395,9 +1209,7 @@
     "year": 1884
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e61"
-    },
+    "_id": "60015c93254d7a0b28473e61",
     "num": 94,
     "author": "Valmiki",
     "country": "India",
@@ -1410,9 +1222,7 @@
     "year": -450
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e62"
-    },
+    "_id": "60015c93254d7a0b28473e62",
     "num": 95,
     "author": "Virgil",
     "country": "Roman Empire",
@@ -1425,9 +1235,7 @@
     "year": -23
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e63"
-    },
+    "_id": "60015c93254d7a0b28473e63",
     "num": 96,
     "author": "Vyasa",
     "country": "India",
@@ -1440,9 +1248,7 @@
     "year": -700
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e64"
-    },
+    "_id": "60015c93254d7a0b28473e64",
     "num": 97,
     "author": "Walt Whitman",
     "country": "United States",
@@ -1455,9 +1261,7 @@
     "year": 1855
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e65"
-    },
+    "_id": "60015c93254d7a0b28473e65",
     "num": 98,
     "author": "Virginia Woolf",
     "country": "United Kingdom",
@@ -1470,9 +1274,7 @@
     "year": 1925
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e66"
-    },
+    "_id": "60015c93254d7a0b28473e66",
     "num": 99,
     "author": "Virginia Woolf",
     "country": "United Kingdom",
@@ -1485,9 +1287,7 @@
     "year": 1927
   },
   {
-    "_id": {
-      "$oid": "60015c93254d7a0b28473e67"
-    },
+    "_id": "60015c93254d7a0b28473e67",
     "num": 100,
     "author": "Marguerite Yourcenar",
     "country": "France/Belgium",

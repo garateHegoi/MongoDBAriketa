@@ -30,7 +30,9 @@ import org.bson.codecs.pojo.PojoCodecProvider;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 import view.JavaFX;
+import org.bson.types.ObjectId;
 
 /**
  *
@@ -39,7 +41,7 @@ import view.JavaFX;
 public class Main {
 
     //MariaDB konfigurazioa
-    public static SessionFactory sf = new Configuration().configure().buildSessionFactory();
+    public static SessionFactory sf = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
 
     //Mongo konfigurazioa
     static CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(), fromProviders(PojoCodecProvider.builder().automatic(true).build()));
@@ -318,31 +320,99 @@ public class Main {
     }
 
     public static void datuaGordeMariaDB() {
-        Scanner sn = new Scanner(System.in);
-        int idBerria = 0;
-        String izenBerria;
-
-        System.out.println("Sartu artista berriaren izena: ");
-        izenBerria = sn.next();
-
+        Scanner in = new Scanner(System.in);
+        System.out.println("---------------------");
+        System.out.println("Baloreak asignatu:");
+        System.out.println("---------------------");
         Session saioa = sf.openSession();
         saioa.beginTransaction();
-        saioa.save(izenBerria);
-        saioa.getTransaction().commit();
-        saioa.close();
-        System.out.println("");
-        System.out.println("");
-        System.out.println("Operazioa ondo egin da. Menuarekin jarraitu.");
+        Book newbook = new Book();
+        Boolean idrRight = false, pagesRight = false, yearRight = false;
+        int id = 0, pages = 0, year = 0;
+        List<String> genres = new ArrayList<>();
+        String trash;
+        try {
+            while (!idrRight) {
+                System.out.println("Id:");
+                try {
+                    id = in.nextInt();
+                    idrRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("Id-a zenbaki bat izan behar da!");
+                    trash = in.next();
+                }
+            }
+            newbook.setNum(id);
+            System.out.println("Titulua:");
+            newbook.setTitle(in.next());
+            System.out.println("Autorea:");
+            newbook.setAuthor(in.next());
+            System.out.println("Generoa (komekin separatu):");
+            genres.addAll(Arrays.asList(in.next().split(",")));
+            newbook.setGenres(genres);
+            System.out.println("Probintzia:");
+            newbook.setCountry(in.next());
+            System.out.println("Image Link:");
+            newbook.setImageLink(in.next());
+            System.out.println("Hizkuntza:");
+            newbook.setLanguage(in.next());
+            System.out.println("Link:");
+            newbook.setLink(in.next());
+            System.out.println("ISBN");
+            String idberria;
+            idberria = in.next();
+            if (ObjectId.isValid(idberria)) {
+                ObjectId objectId = new ObjectId(idberria);
+                System.out.println(objectId);
+                newbook.setId(objectId);
+            } else {
+                System.out.println("Invalid id");
+            }
+            while (!pagesRight) {
+                System.out.println("Orri kopurua:");
+                try {
+                    pages = in.nextInt();
+                    pagesRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("Orri kopurua zenbaki bat izan behar da!");
+                    trash = in.next();
+                }
+            }
+            newbook.setPages(pages);
+            while (!yearRight) {
+                System.out.println("Urtea:");
+                try {
+                    year = in.nextInt();
+                    yearRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("Urtea zenbaki bat izan behar da!");
+                    trash = in.next();
+                }
+            }
+            newbook.setYear(year);
+
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Operazioa ondo egin da. Menuarekin jarraitu.");
+            saioa.save(newbook);
+            saioa.getTransaction().commit();
+            saioa.close();
+        } catch (MongoWriteException e) {
+            System.out.println("Liburu hori existitzen da");
+        }
     }
 
     public static void datuakIkusiMariaDB() {
 
         Session saioa = sf.openSession();
         saioa.beginTransaction();
-        List result = saioa.createQuery("from books").list();
-        for (Book a : (List<Book>) result) {
-            System.out.println(a);
+        Query query = saioa.createQuery("from Book");
+        List<Book> books = query.list();
+        for (Book book : books) {
+            System.out.println("Id: " + book.getNum() + ", Autorea: " + book.getAuthor() + ", Probintzia: " + book.getCountry() + ", Generoa: " + book.getGenres() + ", Imagina: " + book.getImageLink() + ", Hizkuntza: " + book.getLanguage() + ", Linka: " + book.getLink() + ", Orriak: " + book.getPages() + ", Titulua: " + book.getTitle() + ", Urtea: " + book.getYear());
         }
+        saioa.getTransaction().commit();
+        saioa.close();
         System.out.println("");
         System.out.println("");
         System.out.println("Operazioa ondo egin da. Menuarekin jarraitu.");

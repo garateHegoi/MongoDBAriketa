@@ -12,6 +12,8 @@ import org.bson.types.ObjectId;
  *
  * @author Hegoi
  */
+@javax.persistence.Entity
+@javax.persistence.Table(name = "books")
 public class Book {
 
     /**
@@ -37,6 +39,7 @@ public class Book {
     /**
      *generoak deklaratu
      */
+    
     public List<String> genres;
 
     /**
@@ -82,19 +85,6 @@ public class Book {
      */
     public Book(ObjectId _id, int num, String author, String country, List<String> genres, String imageLink, String language, String link, int pages, String title, int year) {
         this._id = _id;
-        this.num = num;
-        this.author = author;
-        this.country = country;
-        this.genres = genres;
-        this.imageLink = imageLink;
-        this.language = language;
-        this.link = link;
-        this.pages = pages;
-        this.title = title;
-        this.year = year;
-    }
-    
-    public Book(int num, String author, String country, List<String> genres, String imageLink, String language, String link, int pages, String title, int year) {
         this.num = num;
         this.author = author;
         this.country = country;
