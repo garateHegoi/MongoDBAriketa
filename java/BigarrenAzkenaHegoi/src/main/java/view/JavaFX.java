@@ -32,7 +32,7 @@ public class JavaFX extends Application {
         });
         
         Button btn2 = new Button();
-        btn2.setText("Kategoria baten liburuetako datu guztiak erakutsi");
+        btn2.setText("Kategoria bat bilatu");
         btn2.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -101,6 +101,16 @@ public class JavaFX extends Application {
             
         });
         
+        Button btn9 = new Button();
+        btn9.setText("Liburu Aldatu MariaDB");
+        btn9.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                controller.Main.datuaAldatuMariaDB();
+            }
+            
+        });
+        
         btn1.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         btn2.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         btn3.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
@@ -109,6 +119,7 @@ public class JavaFX extends Application {
         btn6.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         btn7.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         btn8.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
+        btn9.setStyle("-fx-background-color: darkslateblue; -fx-text-fill: white;");
         
         btn1.setStyle("-fx-font: normal bold 20px 'serif' ");
         btn2.setStyle("-fx-font: normal bold 20px 'serif' ");
@@ -118,16 +129,18 @@ public class JavaFX extends Application {
         btn6.setStyle("-fx-font: normal bold 20px 'serif' ");
         btn7.setStyle("-fx-font: normal bold 20px 'serif' ");
         btn8.setStyle("-fx-font: normal bold 20px 'serif' ");
+        btn9.setStyle("-fx-font: normal bold 20px 'serif' ");
         
         
         gridPane.add(btn1, 0, 0);
-        gridPane.add(btn2, 1, 0);
-        gridPane.add(btn3, 0, 1);
-        gridPane.add(btn4, 1, 1);
-        gridPane.add(btn5, 0, 2);
-        gridPane.add(btn6, 1, 2);
-        gridPane.add(btn7, 0, 3);
-        gridPane.add(btn8, 1, 3);
+        gridPane.add(btn2, 0, 1);
+        gridPane.add(btn3, 0, 2);
+        gridPane.add(btn4, 0, 3);
+        gridPane.add(btn5, 0, 4);
+        gridPane.add(btn6, 1, 0);
+        gridPane.add(btn7, 1, 1);
+        gridPane.add(btn8, 1, 2);
+        gridPane.add(btn9, 1, 3);
         gridPane.setStyle("-fx-background-color: BEIGE;");
         
         Scene scene = new Scene(gridPane);

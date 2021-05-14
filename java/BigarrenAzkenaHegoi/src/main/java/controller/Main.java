@@ -435,6 +435,89 @@ public class Main {
         System.out.println("");
         System.out.println("Operazioa ondo egin da. Menuarekin jarraitu.");
     }
+    
+    public static void datuaAldatuMariaDB() {
+        Scanner in = new Scanner(System.in);
+        System.out.println("---------------------");
+        System.out.println("Baloreak asignatu:");
+        System.out.println("---------------------");
+        Session saioa = sf.openSession();
+        saioa.beginTransaction();
+        Book updatebook = new Book();
+        Boolean idrRight = false, pagesRight = false, yearRight = false;
+        int id = 0, pages = 0, year = 0;
+        List<String> genres = new ArrayList<>();
+        String trash;
+        try {
+            while (!idrRight) {
+                System.out.println("Id:");
+                try {
+                    id = in.nextInt();
+                    idrRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("Id-a zenbaki bat izan behar da!");
+                    trash = in.next();
+                }
+            }
+            updatebook.setNum(id);
+            System.out.println("Titulua:");
+            updatebook.setTitle(in.next());
+            System.out.println("Autorea:");
+            updatebook.setAuthor(in.next());
+            System.out.println("Generoa (komekin separatu):");
+            genres.addAll(Arrays.asList(in.next().split(",")));
+            updatebook.setGenres(genres);
+            System.out.println("Probintzia:");
+            updatebook.setCountry(in.next());
+            System.out.println("Image Link:");
+            updatebook.setImageLink(in.next());
+            System.out.println("Hizkuntza:");
+            updatebook.setLanguage(in.next());
+            System.out.println("Link:");
+            updatebook.setLink(in.next());
+            System.out.println("ISBN");
+            String idberria;
+            idberria = in.next();
+            if (ObjectId.isValid(idberria)) {
+                ObjectId objectId = new ObjectId(idberria);
+                System.out.println(objectId);
+                updatebook.setId(objectId);
+            } else {
+                System.out.println("Invalid id");
+            }
+            while (!pagesRight) {
+                System.out.println("Orri kopurua:");
+                try {
+                    pages = in.nextInt();
+                    pagesRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("Orri kopurua zenbaki bat izan behar da!");
+                    trash = in.next();
+                }
+            }
+            updatebook.setPages(pages);
+            while (!yearRight) {
+                System.out.println("Urtea:");
+                try {
+                    year = in.nextInt();
+                    yearRight = true;
+                } catch (InputMismatchException ex) {
+                    System.out.println("Urtea zenbaki bat izan behar da!");
+                    trash = in.next();
+                }
+            }
+            updatebook.setYear(year);
+
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Operazioa ondo egin da. Menuarekin jarraitu.");
+            saioa.update(updatebook);
+            saioa.getTransaction().commit();
+            saioa.close();
+        } catch (MongoWriteException e) {
+            System.out.println("Liburu hori existitzen da");
+        }
+    }
 
     public static void JsonToCsv(File jsonFile, File csvFile) throws IOException {
         JsonNode jsonTree = new ObjectMapper().readTree(jsonFile);
